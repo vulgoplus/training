@@ -1,0 +1,82 @@
+@import '~@/scss/variables';
+@import '~@/scss/mixin';
+@import '~@/scss/flex';
+
+.ps {
+  overflow: hidden !important;
+  overflow-anchor: none;
+
+  .min-w {
+    @include to(320px) {
+      min-width: 320px;
+    }
+
+    .layout {
+      padding: 80px 20px;
+      min-width: 320px;
+    }
+  }
+}
+
+.background {
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  background-image: url('assets/img/bamboo.jpg');
+
+  .logo {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: unset;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    top: 40%;
+    left: 45%;
+    margin: auto;
+
+    img {
+      margin: auto;
+      width: 45px;
+    }
+  }
+}
+
+.d-n\@sm- {
+  @include to($breakpoint-sm) {
+    display: none !important;
+  }
+}
+
+.h-100vh {
+  height: 100vh !important;
+
+  .title {
+    padding-right: 20px;
+    padding-left: 20px;
+    line-height: 3;
+    font-weight: 400;
+    color: #67c23a;
+    display: flex;
+    justify-content: center;
+
+    img {
+      width: 45px;
+      margin: auto 0;
+    }
+
+    span {
+      margin: auto;
+    }
+  }
+
+  .shadow-none {
+    box-shadow: unset !important;
+    border: unset !important;
+  }
+}
+
+.scrollable {
+  overflow-y: auto;
+}

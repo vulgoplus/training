@@ -1,0 +1,41 @@
+version: '3.5'
+
+# =========================================
+# Networks
+# =========================================
+networks:
+  mysql-net:
+    name: mysql-net
+    external: true
+  minio-net:
+    name: minio-net
+    external: true
+  proxy-net:
+    name: proxy-net
+    external: true
+
+# =========================================
+# Services
+# =========================================
+services:
+  app:
+    # image: node:12
+    # command: yarn dev
+    # working_dir: /usr/src/app
+    build:
+      context: .
+      dockerfile: .docker/Dockerfile
+    expose:
+      - 3000
+    environment:
+      - PORT=3000
+      - NODE_ENV=development
+    networks:
+      mysql-net: {}
+      minio-net: {}
+      proxy-net:
+        aliases:
+          - bbvision
+    restart: unless-stopped
+    # volumes:
+    #   - .:/usr/src/app

@@ -1,0 +1,57 @@
+version: '3.5'
+
+networks:
+  default: {}
+
+volumes:
+  mysql-dt: {}
+  media-dt: {}
+
+services:
+  mysql:
+    image: mysql:8.0
+    # PDO Doesn't support MySQL 8 caching_sha2_password Authentication
+    # @see https://dev.mysql.com/doc/refman/8.0/en/upgrading-from-previous-series.html#upgrade-caching-sha2-password
+    command:
+      - '--default-authentication-plugin=mysql_native_password'
+      - '--character-set-server=utf8mb4'
+      - '--collation-server=utf8mb4_unicode_ci'
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:-password}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+    networks:
+      - default
+    ports:
+      - 3306:3306
+    restart: unless-stopped
+    volumes:
+      - mysql-dt:/var/lib/mysql
+
+  dbadmin:
+    image: adminer
+    depends_on:
+      - mysql
+    environment:
+      ADMINER_PLUGINS: 'tables-filter tinymce dump-zip'
+      ADMINER_DEFAULT_SERVER: 'mysql'
+    ports:
+      - '8080:8080'
+    networks:
+      - default
+    restart: unless-stopped
+
+  minio:
+    image: minio/minio
+    command: server /data
+    environment:
+      MINIO_ACCESS_KEY: 'abcxyz123'
+      MINIO_SECRET_KEY: 'abcxyz123'
+    ports:
+      - '9000:9000'
+    networks:
+      - default
+    restart: unless-stopped
+    volumes:
+      - media-dt:/data

@@ -1,0 +1,9 @@
+.el-dialog {
+  &.small {
+    max-width: 600px;
+  }
+
+  &.tiny {
+    max-width: 400px;
+  }
+}

@@ -1,0 +1,346 @@
+@import '~@/scss/variables';
+@import '~@/scss/color';
+@import '~@/scss/material-color';
+
+.el-menu {
+  border-right: none;
+  a:hover {
+    text-decoration: none;
+  }
+}
+
+.sidebar-text {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.sidebar {
+  background-color: $default-white;
+  bottom: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  transition: all 0.2s ease;
+  width: $offscreen-size;
+  z-index: 1000;
+
+  ul {
+    list-style-type: none;
+  }
+
+  // @include between($breakpoint-md, $breakpoint-xl) {
+  //   width: $collapsed-size;
+
+  //   .sidebar-inner {
+  //     .sidebar-logo {
+  //       border-bottom: 1px solid transparent;
+  //       padding: 0;
+
+  //       a {
+  //         .logo {
+  //           background-position: center center;
+  //           width: $collapsed-size;
+  //         }
+  //       }
+  //     }
+
+  //     .sidebar-menu {
+  //       overflow-x: hidden;
+
+  //       > li {
+  //         > a {
+  //           .title {
+  //             display: none;
+  //           }
+  //         }
+  //       }
+  //     }
+  //   }
+
+  //   &:hover {
+  //     width: $offscreen-size;
+
+  //     .sidebar-inner {
+  //       .sidebar-logo {
+  //         border-bottom: 1px solid $border-color;
+  //         padding: 0 20px;
+  //       }
+
+  //       .sidebar-menu {
+  //         > li {
+  //           > a {
+  //             .title {
+  //               display: inline-block;
+  //             }
+  //           }
+  //         }
+  //       }
+  //     }
+  //   }
+  // }
+
+  @include to($breakpoint-md) {
+    left: -$offscreen-size;
+    width: calc(#{$offscreen-size} - 30px);
+  }
+}
+
+// ---------------------------------------------------------
+// @Sidebar Inner
+// ---------------------------------------------------------
+
+.sidebar-inner {
+  position: relative;
+  height: 100%;
+}
+
+// ---------------------------------------------------------
+// @Sidebar Header
+// ---------------------------------------------------------
+
+.sidebar-logo {
+  border-bottom: 1px solid $border-color;
+  border-right: 1px solid $border-color;
+  line-height: 0;
+  padding: 0 20px;
+  transition: all 0.2s ease;
+
+  a {
+    display: inline-block;
+    width: 100%;
+
+    .logo {
+      background-position: center left;
+      background-repeat: no-repeat;
+      display: inline-block;
+      min-height: calc(#{$header-height} - 1px);
+      width: 100%;
+      width: 70px;
+      line-height: calc(#{$header-height} - 5px);
+      text-align: center;
+    }
+
+    .logo-text {
+      line-height: calc(#{$header-height} - 1px);
+      color: $primary-color;
+    }
+  }
+
+  .mobile-toggle {
+    display: none;
+    float: right;
+    font-size: 18px;
+    line-height: calc(#{$header-height} - 1px);
+
+    a {
+      color: $default-text-color;
+    }
+
+    @include to($breakpoint-md) {
+      display: inline-block;
+    }
+
+    @include between($breakpoint-md, $breakpoint-xl) {
+      display: none;
+    }
+  }
+}
+
+// ---------------------------------------------------------
+// @Sidebar Menu
+// ---------------------------------------------------------
+
+.sidebar-menu {
+  @include clearfix;
+  border-right: 1px solid $border-color;
+  height: calc(100vh - #{$header-height});
+  list-style: none;
+  margin: 0;
+  overflow: auto;
+  padding: 0;
+  position: relative;
+
+  .dropdown-toggle::after {
+    display: none;
+  }
+
+  .sidebar-link {
+    &.actived::before {
+      background: #e3f2fd;
+      border-radius: 50%;
+      content: '';
+      display: block;
+      height: 8px;
+      left: -4px;
+      position: absolute;
+      top: calc(50% - 4px);
+      width: 8px;
+    }
+  }
+
+  li {
+    position: relative;
+
+    &:not(.is-active) {
+      a {
+        color: $menu-item-color;
+        transition: all 0.3s ease;
+
+        &:hover,
+        &:focus {
+          color: $default-dark;
+          text-decoration: none;
+
+          .icon-holder {
+            color: $default-info;
+          }
+        }
+      }
+    }
+  }
+
+  > li {
+    > a {
+      display: block;
+      font-size: 15px;
+      font-weight: 500;
+      padding: 5px 15px;
+      position: relative;
+      white-space: nowrap;
+
+      .icon-holder {
+        border-radius: 6px;
+        display: inline-block;
+        font-size: 17px;
+        height: 35px;
+        left: 0;
+        line-height: 35px;
+        margin-right: 14px;
+        position: relative;
+        text-align: center;
+        transition: all 0.3s ease;
+        width: 35px;
+      }
+    }
+  }
+}
+
+// ---------------------------------------------------------
+// @Sidebar Collapsed
+// ---------------------------------------------------------
+
+.is-collapsed {
+  .sidebar {
+    @include from($breakpoint-xl) {
+      width: $collapsed-size;
+
+      .sidebar-inner {
+        .sidebar-logo {
+          border-bottom: 1px solid transparent;
+          padding: 0;
+        }
+
+        .sidebar-menu {
+          overflow-x: hidden;
+
+          > li {
+            > a {
+              .title {
+                display: none;
+              }
+            }
+          }
+        }
+      }
+
+      &:hover {
+        width: $offscreen-size;
+
+        .sidebar-inner {
+          .sidebar-logo {
+            border-bottom: 1px solid $border-color;
+            padding: 0 20px;
+          }
+
+          .sidebar-menu {
+            > li {
+              > a {
+                .title {
+                  display: inline-block;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    @include between($breakpoint-md, $breakpoint-xl) {
+      width: $offscreen-size;
+
+      .sidebar-inner {
+        .sidebar-logo {
+          border-bottom: 1px solid $border-color;
+          padding: 0 20px;
+
+          > a {
+            .logo {
+              background-position: center left;
+              width: 150px;
+            }
+          }
+        }
+
+        .sidebar-menu {
+          > li {
+            > a {
+              .title {
+                display: inline-block;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    @include to($breakpoint-md) {
+      left: 0;
+    }
+  }
+}
+
+.peers {
+  box-sizing: border-box;
+  display: flex !important;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-flow: row wrap;
+  height: auto;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.peer {
+  display: block;
+  height: auto;
+  flex: 0 0 auto;
+}
+
+.peer-greed {
+  flex: 1 1 auto;
+  // overflow: hidden;
+}
+
+.peers-greed > .peer,
+.peers-greed > .peers {
+  flex: 1 1 auto;
+}
+
+.peer > img {
+  max-width: none;
+}
+
+.peer-greed > img {
+  max-width: 100%;
+}

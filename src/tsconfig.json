@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es2018",
+    "module": "commonjs",
+    "lib": ["dom", "es2018"],
+    "noImplicitAny": false,
+    "strictNullChecks": false,
+    "resolveJsonModule": true,
+    "esModuleInterop": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "baseUrl": "./",
+    "paths": {
+      "@components/*": ["app/components/*"],
+      "@pages/*": ["app/pages/*"],
+      "@stores/*": ["app/stores/*"],
+      "@utils/*": ["app/utils/*"],
+      "@/*": ["app/*"]
+    }
+  },
+  "include": ["**/*.ts", "**/*.vue"],
+  "exclude": ["node_modules"]
+}

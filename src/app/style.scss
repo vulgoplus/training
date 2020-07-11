@@ -1,0 +1,21 @@
+@import '~bootstrap/scss/bootstrap';
+@import './scss/variables';
+@import './scss/mixin';
+@import './scss/flex';
+@import './scss/color';
+@import './scss/pseudo';
+@import './scss/loading';
+@import './scss/text';
+@import './scss/dialog';
+@import './scss/spacing';
+@import '~element-ui/packages/theme-chalk/src/index';
+
+button.el-button {
+  &:focus {
+    outline: unset;
+  }
+}
+
+.el-range-separator {
+  box-sizing: content-box;
+}

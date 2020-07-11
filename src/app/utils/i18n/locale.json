@@ -1,0 +1,1517 @@
+{
+  "Login": {
+    "vi": "Đăng nhập"
+  },
+  "Forgot password": {
+    "vi": "Quên mật khẩu"
+  },
+  "Email is required": {
+    "vi": "Bạn phải nhập Email"
+  },
+  "Email length should be at least 8 characters": {
+    "vi": "Độ dài email tối thiểu 8 ký tự"
+  },
+  "Password is required": {
+    "vi": "Bắt buộc nhập mật khẩu"
+  },
+  "Password length should be at least 8 characters": {
+    "vi": "Độ dài mật khẩu tối thiểu 8 ký tự"
+  },
+  "Login successfull": {
+    "vi": "Đăng nhập thành công"
+  },
+  "Username or password is invalid": {
+    "vi": "Sai tài khoản hoặc mật khẩu"
+  },
+  "Warehouse Management": {
+    "vi": "Quản lý kho"
+  },
+  "Inventory Report": {
+    "vi": "Báo cáo kiểm kho"
+  },
+  "Goods Received Note": {
+    "vi": "Hóa đơn nhập hàng"
+  },
+  "Goods Delivery Note": {
+    "vi": "Hóa đơn xuất hàng"
+  },
+  "Warehouse Transfer Report": {
+    "vi": "Báo cáo chuyển hàng giữa các kho"
+  },
+  "Warehouse List": {
+    "vi": "Danh sách kho"
+  },
+  "Product Management": {
+    "vi": "Quản lý sản phẩm"
+  },
+  "Product List": {
+    "vi": "Danh sách sản phẩm"
+  },
+  "Create Product": {
+    "vi": "Tạo sản phẩm"
+  },
+  "Product Combo": {
+    "vi": "Combo sản phẩm"
+  },
+  "Sale Management": {
+    "vi": "Quản lý bán hàng"
+  },
+  "Create Order": {
+    "vi": "Tạo đơn hàng"
+  },
+  "Order Management": {
+    "vi": "Quản lý đơn hàng"
+  },
+  "Order": {
+    "vi": "Đơn hàng"
+  },
+  "Order code": {
+    "vi": "Mã đơn hàng"
+  },
+  "Waybill Management": {
+    "vi": "Quản lý đơn vận"
+  },
+  "Promotion Management": {
+    "vi": "Quản lý khuyến mại"
+  },
+  "Customer Management": {
+    "vi": "Quản lý khách hàng"
+  },
+  "Customer List": {
+    "vi": "Danh sách khách hàng"
+  },
+  "Tag List": {
+    "vi": "Danh sách tag"
+  },
+  "Supplier Management": {
+    "vi": "Quản lý nhà cung cấp"
+  },
+  "Transporter Management": {
+    "vi": "Quản lý nhà vận chuyển"
+  },
+  "Shipping Information": {
+    "vi": "Thông tin vận chuyển"
+  },
+  "Receiver": {
+    "vi": "Người nhận"
+  },
+  "Employee Management": {
+    "vi": "Quản lý nhân viên"
+  },
+  "Employee List": {
+    "vi": "Danh sách nhân viên"
+  },
+  "Role List": {
+    "vi": "Danh sách vai trò"
+  },
+  "Privilege": {
+    "vi": "Phân quyền"
+  },
+  "Settings": {
+    "vi": "Cài đặt"
+  },
+  "System Configuration": {
+    "vi": "Cấu hình hệ thống"
+  },
+  "Email notification": {
+    "vi": "Email thông báo"
+  },
+  "Product code": {
+    "vi": "Mã sản phẩm"
+  },
+  "Name, code product": {
+    "vi": "Tên, mã sản phẩm"
+  },
+  "EAN Code": {
+    "vi": "Mã EAN"
+  },
+  "SKU Code": {
+    "vi": "Mã SKU"
+  },
+  "Name product": {
+    "vi": "Tên sản phẩm"
+  },
+  "Supplier": {
+    "vi": "Nhà cung cấp"
+  },
+  "Product type": {
+    "vi": "Loại sản phẩm"
+  },
+  "Price": {
+    "vi": "Giá bán"
+  },
+  "Historical cost": {
+    "vi": "Giá vốn"
+  },
+  "Delete product": {
+    "vi": "Xoá sản phẩm"
+  },
+  "Edit product information": {
+    "vi": "Sửa thông tin sản phẩm"
+  },
+  "Information": {
+    "vi": "Thông tin"
+  },
+  "Variant": {
+    "vi": "Biến thể"
+  },
+  "New variant": {
+    "vi": "Thêm biến thể"
+  },
+  "Material": {
+    "vi": "Nguyên liệu"
+  },
+  "Confirm": {
+    "vi": "Xác nhận"
+  },
+  "Category": {
+    "vi": "Danh mục"
+  },
+  "Select a product category": {
+    "vi": "Chọn danh mục sản phẩm"
+  },
+  "Create goods receive note": {
+    "vi": "Tạo phiếu nhập kho"
+  },
+  "Cancel goods receive note": {
+    "vi": "Huỷ phiếu nhập kho"
+  },
+  "Select warehouse": {
+    "vi": "Chọn kho"
+  },
+  "New image": {
+    "vi": "Thêm ảnh"
+  },
+  "Material name": {
+    "vi": "Tên nguyên liệu"
+  },
+  "Material code": {
+    "vi": "Mã nguyên liệu"
+  },
+  "Variant name": {
+    "vi": "Tên biến thể"
+  },
+  "Variant code": {
+    "vi": "Mã biến thể"
+  },
+  "Property": {
+    "vi": "Thuộc tính"
+  },
+  "Select property": {
+    "vi": "Chọn thuộc tính"
+  },
+  "Information warehouse": {
+    "vi": "Thông tin nhập kho"
+  },
+  "Inventory": {
+    "vi": "Tồn kho"
+  },
+  "Save product": {
+    "vi": "Lưu sản phẩm"
+  },
+  "Combo product": {
+    "vi": "Combo Sản phẩm"
+  },
+  "Create combo": {
+    "vi": "Thêm combo"
+  },
+  "Create combo failed": {
+    "vi": "Thêm combo lỗi"
+  },
+  "Create combo successfully": {
+    "vi": "Thêm combo thành công"
+  },
+  "Add product for combo failed": {
+    "vi": "Thêm sản phẩm cho combo lỗi"
+  },
+  "Add product for combo successfully": {
+    "vi": "Thêm sản phẩm cho combo thành công"
+  },
+  "Combo name": {
+    "vi": "Tên combo"
+  },
+  "Enter name combo": {
+    "vi": "Nhập tên combo"
+  },
+  "Date Created": {
+    "vi": "Ngày tạo"
+  },
+  "Find product": {
+    "vi": "Tìm sản phẩm"
+  },
+  "Amount": {
+    "vi": "Số tiền"
+  },
+  "Total price": {
+    "vi": "Tổng tiền sản phẩm"
+  },
+  "Combo price": {
+    "vi": "Tiền combo"
+  },
+  "Search by code": {
+    "vi": "Tìm theo mã phiếu"
+  },
+  "Excel Export": {
+    "vi": "Xuất Excel"
+  },
+  "No.": {
+    "vi": "STT"
+  },
+  "Code": {
+    "vi": "Mã phiếu"
+  },
+  "Status": {
+    "vi": "Trạng thái"
+  },
+  "Creator": {
+    "vi": "Người tạo"
+  },
+  "Warehouse": {
+    "vi": "Kho"
+  },
+  "Detail": {
+    "vi": "Chi tiết"
+  },
+  "Print": {
+    "vi": "In phiếu"
+  },
+  "Add": {
+    "vi": "Thêm mới"
+  },
+  "Cancel": {
+    "vi": "Hủy bỏ"
+  },
+  "Edit": {
+    "vi": "Chỉnh sửa"
+  },
+  "Delete": {
+    "vi": "Xóa"
+  },
+  "Draft": {
+    "vi": "Phiếu nháp"
+  },
+  "In process": {
+    "vi": "Đang tiến hành"
+  },
+  "Quantity": {
+    "vi": "Số lượng"
+  },
+  "Filter": {
+    "vi": "Bộ lọc"
+  },
+  "Search": {
+    "vi": "Tìm kiếm"
+  },
+  "Holding warehouse": {
+    "vi": "Kho chứa hàng"
+  },
+  "Receive warehouse": {
+    "vi": "Kho nhận hàng"
+  },
+  "Branch Name": {
+    "vi": "Tên chi nhánh"
+  },
+  "Phone": {
+    "vi": "Số điện thoại"
+  },
+  "Address": {
+    "vi": "Địa chỉ"
+  },
+  "History": {
+    "vi": "Lịch sử"
+  },
+  "Add receive note": {
+    "vi": "Thêm phiếu nhập kho"
+  },
+  "Add delivery note": {
+    "vi": "Thêm phiếu xuất kho"
+  },
+  "Add inventory note": {
+    "vi": "Thêm phiếu kiểm kho"
+  },
+  "Main warehouse": {
+    "vi": "Kho chính"
+  },
+  "Close": {
+    "vi": "Đóng"
+  },
+  "No delivery note yet": {
+    "vi": "Chưa có phiếu xuất"
+  },
+  "Password": {
+    "vi": "Mật khẩu"
+  },
+  "Warehouse name": {
+    "vi": "Tên kho"
+  },
+  "City": {
+    "vi": "Thành phố"
+  },
+  "District": {
+    "vi": "Quận huyện"
+  },
+  "Update": {
+    "vi": "Cập nhật"
+  },
+  "File name": {
+    "vi": "Tên file"
+  },
+  "File type": {
+    "vi": "Loại file"
+  },
+  "Enter the excel file name": {
+    "vi": "Nhập tên file excel"
+  },
+  "Download": {
+    "vi": "Tải về"
+  },
+  "Template": {
+    "vi": "Mẫu"
+  },
+  "Property Variation": {
+    "vi": "Thuộc tính biến thể"
+  },
+  "Enter property and press enter to create": {
+    "vi": "Nhập thuộc tính và nhấn enter để tạo"
+  },
+  "Value": {
+    "vi": "Giá trị"
+  },
+  "Enter property value": {
+    "vi": "Nhập giá trị thuộc tính"
+  },
+  "Add property": {
+    "vi": "Thêm thuộc tính"
+  },
+  "Please choose a product": {
+    "vi": "Vui lòng chọn sản phẩm"
+  },
+  "Create delivery note": {
+    "vi": "Tạo phiếu xuất hàng"
+  },
+  "Enter creator name": {
+    "vi": "Nhập tên người tạo phiếu"
+  },
+  "Note": {
+    "vi": "Ghi chú"
+  },
+  "Enter product code, name to add product": {
+    "vi": "Nhập mã, tên sản phẩm để thêm sản phẩm"
+  },
+  "Total quantity": {
+    "vi": "Tổng số lượng"
+  },
+  "Create draft": {
+    "vi": "Tạo bản nháp"
+  },
+  "Export price": {
+    "vi": "Giá xuất"
+  },
+  "Into money": {
+    "vi": "Thành tiền"
+  },
+  "Create": {
+    "vi": "Tạo"
+  },
+  "Network error or delivery note does not exist.": {
+    "vi": "Lỗi mạng hoặc phiếu xuất không tồn tại."
+  },
+  "No more products.": {
+    "vi": "Không còn sản phẩm nào."
+  },
+  "Please create more products.": {
+    "vi": "Vui lòng tạo thêm sản phẩm."
+  },
+  "Not enough products in stock.": {
+    "vi": "Không đủ sản phẩm trong kho."
+  },
+  "Add product successfully.": {
+    "vi": "Thêm sản phẩm thành công."
+  },
+  "Update product succesfully.": {
+    "vi": "Cập nhật sản phẩm thành công."
+  },
+  "Drop excel file here or": {
+    "vi": "Thả tập tin excel ở đây hoặc"
+  },
+  "Browse": {
+    "vi": "Browse"
+  },
+  "Import price": {
+    "vi": "Giá nhập"
+  },
+  "Network error or receive note does not exist.": {
+    "vi": "Lỗi mạng hoặc phiếu nhập không tồn tại."
+  },
+  "Create receive note": {
+    "vi": "Tạo phiếu nhập hàng"
+  },
+  "Actual": {
+    "vi": "Thực tế"
+  },
+  "Difference": {
+    "vi": "Chênh lệch"
+  },
+  "Network error or inventory note does not exist.": {
+    "vi": "Lỗi mạng hoặc phiếu kiểm kho không tồn tại."
+  },
+  "Create inventory note": {
+    "vi": "Tạo phiếu kiểm kho"
+  },
+  "Actual total inventory": {
+    "vi": "Tổng tồn kho thực tế"
+  },
+  "Total difference": {
+    "vi": "Tổng chênh lệch"
+  },
+  "Edit supplier": {
+    "vi": "Sửa nhà cung cấp"
+  },
+  "Add supplier": {
+    "vi": "Thêm nhà cung cấp"
+  },
+  "Supplier must not be blank": {
+    "vi": "Nhà cung cấp không được để trống"
+  },
+  "Inventory must not be blank": {
+    "vi": "Hàng tồn kho không được để trống"
+  },
+  "Name must not be blank": {
+    "vi": "Tên không được để trống"
+  },
+  "Warehouse must not be blank": {
+    "vi": "Kho không được để trống"
+  },
+  "Combo name must not be blank": {
+    "vi": "Tên combo không được để trống"
+  },
+  "Product must not be blank": {
+    "vi": "Sản phẩm không được để trống"
+  },
+  "Variant name may not be blank.": {
+    "vi": "Biến thể không được để trống"
+  },
+  "Phone must not be blank": {
+    "vi": "Số điện thoại không được để trống"
+  },
+  "Email must not be blank": {
+    "vi": "Email không được để trống"
+  },
+  "Address must not be blank": {
+    "vi": "Địa chỉ không được để trống"
+  },
+  "Supplier does not exist.": {
+    "vi": "Nhà cung cấp không tồn tại"
+  },
+  "Supplier has been updated.": {
+    "vi": "Nhà cung cấp đã được cập nhật."
+  },
+  "Update failed.": {
+    "vi": "Cập nhật thất bại."
+  },
+  "Supplier has been added.": {
+    "vi": "Nhà cung cấp đã được thêm mới."
+  },
+  "Add supplier failed.": {
+    "vi": "Thêm nhà cung cấp thất bại."
+  },
+  "Supplier name": {
+    "vi": "Tên nhà cung cấp"
+  },
+  "Email": {
+    "vi": "Email"
+  },
+  "Save": {
+    "vi": "Lưu"
+  },
+  "Warehouse is empty.": {
+    "vi": "Chưa có kho hàng nào"
+  },
+  "Profile": {
+    "vi": "Hồ sơ"
+  },
+  "Messages": {
+    "vi": "Tin nhắn"
+  },
+  "Logout": {
+    "vi": "Đăng xuất"
+  },
+  "English": {
+    "vi": "Tiếng Anh"
+  },
+  "Vietnamese": {
+    "vi": "Tiếng Việt"
+  },
+  "BB Vision": {
+    "vi": "BB Vision"
+  },
+  "Property already exist": {
+    "vi": "Thuộc tính đã tồn tại"
+  },
+  "Add property failed": {
+    "vi": "Thêm thuộc tính thất bại"
+  },
+  "Property added": {
+    "vi": "Đã thêm thuộc tính"
+  },
+  "Delete property failed": {
+    "vi": "Xóa thuộc tính thất bại"
+  },
+  "Delete property successfully": {
+    "vi": "Xóa thuộc tính thành công"
+  },
+  "Edit property failed": {
+    "vi": "Sửa thuộc tính thất bại"
+  },
+  "Edit property successfully": {
+    "vi": "Sửa thuộc tính thành công"
+  },
+  "Please select and enter all property value": {
+    "vi": "Vui lòng chọn và nhập đủ giá trị thuộc tính"
+  },
+  "Search by customer code, name": {
+    "vi": "Tìm kiếm theo tên, mã khách hàng"
+  },
+  "Excel Import": {
+    "vi": "Nhập Excel"
+  },
+  "Liability": {
+    "vi": "Công nợ"
+  },
+  "Total amount": {
+    "vi": "Cộng tiền hàng"
+  },
+  "Customer code": {
+    "vi": "Mã khách hàng"
+  },
+  "Customer name": {
+    "vi": "Tên khách hàng"
+  },
+  "Create customer": {
+    "vi": "Thêm khách hàng"
+  },
+  "Customer information": {
+    "vi": "Thông tin khách hàng"
+  },
+  "Customer name must not be blank": {
+    "vi": "Tên khách hàng không được để trống"
+  },
+  "Email is incorrect format": {
+    "vi": "Email chưa đúng định dạng"
+  },
+  "Please enter full address.": {
+    "vi": "Vui lòng nhập đầy đủ địa chỉ."
+  },
+  "Please select city and district in the first contact.": {
+    "vi": "Vui lòng chọn thành phố và quận huyện ở thông tin liên hệ đầu tiên."
+  },
+  "Please do not upload files larger than 1m in size.": {
+    "vi": "Vui lòng không tải lên các tệp có kích thước lớn hơn 1m."
+  },
+  "Failed to upload customer list": {
+    "vi": "Tải lên danh sách khách hàng thất bại"
+  },
+  "Upload customer list successfully": {
+    "vi": "Tải lên danh sách khách hàng thành công"
+  },
+  "Do you want to delete the selected customer?": {
+    "vi": "Bạn có muốn xóa khách hàng đã chọn"
+  },
+  "Warning": {
+    "vi": "Cảnh báo"
+  },
+  "Delete customer failed": {
+    "vi": "Xóa khách hàng thất bại"
+  },
+  "Delete customer successfully": {
+    "vi": "Xóa khách hàng thành công"
+  },
+  "Delete customer canceled": {
+    "vi": "Đã hủy việc xóa khách hàng"
+  },
+  "Add customer failed": {
+    "vi": "Thêm khách hàng thất bại"
+  },
+  "Add customer successfully": {
+    "vi": "Thêm khách hàng thành công"
+  },
+  "Update customer failed": {
+    "vi": "Cập nhật khách hàng thất bại"
+  },
+  "Update customer successfully": {
+    "vi": "Cập nhật khách hàng thành công"
+  },
+  "Add tag to customer": {
+    "vi": "Thêm tag cho khách hàng"
+  },
+  "Add tag": {
+    "vi": "Thêm tag"
+  },
+  "Delete tag": {
+    "vi": "Xóa tag"
+  },
+  "Select customer": {
+    "vi": "Chọn khách hàng"
+  },
+  "Tag name": {
+    "vi": "Tên tag"
+  },
+  "Select tag": {
+    "vi": "Chọn tag"
+  },
+  "Tag name must not be blank": {
+    "vi": "Tên tag không được để trống"
+  },
+  "Edit tag": {
+    "vi": "Chỉnh sửa tag"
+  },
+  "Reports": {
+    "vi": "Báo cáo thống kê"
+  },
+  "Employee": {
+    "vi": "Nhân viên"
+  },
+  "Line chart": {
+    "vi": "Biểu đồ đường"
+  },
+  "Bar chart": {
+    "vi": "Biểu đồ cột"
+  },
+  "Area chart": {
+    "vi": "Biểu đồ miền"
+  },
+  "All": {
+    "vi": "Tất cả"
+  },
+  "Male": {
+    "vi": "Nam"
+  },
+  "Female": {
+    "vi": "Nữ"
+  },
+  "Old password is required": {
+    "vi": "Mật khẩu cũ là bắt buộc"
+  },
+  "Old password cannot be less than 8 characters": {
+    "vi": "Mật khẩu cũ không được ít hơn 8 ký tự"
+  },
+  "New password is required": {
+    "vi": "Mật khẩu mới là bắt buộc"
+  },
+  "New password cannot be less than 8 characters": {
+    "vi": "Mật khẩu mới không được ít hơn 8 ký tự"
+  },
+  "Repassword is required": {
+    "vi": "Xác nhận mật khẩu mới là bắt buộc"
+  },
+  "Repassword cannot be less than 8 characters": {
+    "vi": "Xác nhận mật khẩu mới không được ít hơn 8 ký tự"
+  },
+  "User information will be changed. Continue?": {
+    "vi": "Thông tin người dùng sẽ bị thay đổi. Tiếp tục?"
+  },
+  "Change user information successfully": {
+    "vi": "Thay đổi thông tin người dùng thành công"
+  },
+  "Are you sure to close this dialog?": {
+    "vi": "Bạn có chắc chắn đóng hộp thoại này?"
+  },
+  "Password is not the same": {
+    "vi": "Mật khẩu không giống nhau"
+  },
+  "Changed password successfully": {
+    "vi": "Thay đổi mật khẩu thành công"
+  },
+  "Edit information": {
+    "vi": "Sửa thông tin"
+  },
+  "Full name": {
+    "vi": "Họ tên"
+  },
+  "Role": {
+    "vi": "Vai trò"
+  },
+  "Gender": {
+    "vi": "Giới tính"
+  },
+  "Language": {
+    "vi": "Ngôn ngữ"
+  },
+  "Date of birth": {
+    "vi": "Ngày sinh"
+  },
+  "Login and security": {
+    "vi": "Đăng nhập và bảo mật"
+  },
+  "Change password": {
+    "vi": "Đổi mật khẩu"
+  },
+  "You should use strong passwords that you have not used elsewhere": {
+    "vi": "Bạn nên sử dụng mật khẩu mạnh mà mình chưa dùng ở đâu khác"
+  },
+  "Old password": {
+    "vi": "Mật khẩu cũ"
+  },
+  "New password": {
+    "vi": "Mật khẩu mới"
+  },
+  "Repassword": {
+    "vi": "Xác nhận mật khẩu"
+  },
+  "Save information": {
+    "vi": "Lưu thông tin"
+  },
+  "Email address": {
+    "vi": "Địa chỉ email"
+  },
+  "Register": {
+    "vi": "Đăng ký"
+  },
+  "Return to login": {
+    "vi": "Quay lại trang đăng nhập"
+  },
+  "Please enter email address": {
+    "vi": "Vui lòng nhập địa chỉ email"
+  },
+  "Please enter correct email address": {
+    "vi": "Vui lòng nhập đúng địa chỉ email"
+  },
+  "Email sent successfully": {
+    "vi": "Gửi email thành công"
+  },
+  "Enter your email address that you used to register. We will send you an email with a link to reset your password.": {
+    "vi": "Nhập địa chỉ email mà bạn đã sử dụng để đăng ký. Chúng tôi sẽ gửi cho bạn một email có liên kết để đặt lại mật khẩu của bạn."
+  },
+  "Send recovery link": {
+    "vi": "Gửi liên kết phục hồi"
+  },
+  "Change your password": {
+    "vi": "Thay đổi mật khẩu của bạn"
+  },
+  "Reset Password": {
+    "vi": "Đặt lại mật khẩu"
+  },
+  "Please enter password": {
+    "vi": "Vui lòng nhập mật khẩu"
+  },
+  "Please enter repassword": {
+    "vi": "Vui lòng nhập lại mật khẩu"
+  },
+  "Repassword length should be at least 8 characters": {
+    "vi": "Mật khẩu phải có độ dài ít nhất là 8 ký tự"
+  },
+  "Password reset successfully": {
+    "vi": "Đặt lại mật khẩu thành công"
+  },
+  "Search permission name": {
+    "vi": "Tìm kiếm tên quyền"
+  },
+  "Permission name": {
+    "vi": "Tên quyền"
+  },
+  "Edit permission name": {
+    "vi": "Sửa tên quyền"
+  },
+  "Delete permission": {
+    "vi": "Xóa quyền"
+  },
+  "Permission information": {
+    "vi": "Thông tin quyền"
+  },
+  "Permission name must not be blank": {
+    "vi": "Tên quyền không được để trống"
+  },
+  "Failed to upload permission list": {
+    "vi": "Tải lên danh sách quyền thất bại"
+  },
+  "Upload permission list successfully": {
+    "vi": "Tải lên danh sách quyền thành công"
+  },
+  "Do you want to delete the selected permissions?": {
+    "vi": "Bạn có muốn xóa quyền đã chọn?"
+  },
+  "Delete permission failed": {
+    "vi": "Xóa quyền thất bại"
+  },
+  "Delete permission successfully": {
+    "vi": "Xóa quyền thành công"
+  },
+  "Delete permission canceled": {
+    "vi": "Đã hủy việc xóa quyền"
+  },
+  "Update permission failed": {
+    "vi": "Cập nhật quyền thất bại"
+  },
+  "Update permission successfully": {
+    "vi": "Cập nhật quyền thành công"
+  },
+  "Add permission failed": {
+    "vi": "Thêm mới quyền thất bại"
+  },
+  "Add permission successfully": {
+    "vi": "Thêm mới quyền thành công"
+  },
+  "Add employee": {
+    "vi": "Thêm nhân viên"
+  },
+  "Employee name": {
+    "vi": "Tên nhân viên"
+  },
+  "Admin": {
+    "vi": "Admin"
+  },
+  "Inventory Management": {
+    "vi": "Quản lý kho"
+  },
+  "Partner Management": {
+    "vi": "Quản lý đối tác"
+  },
+  "Employee name must not be blank": {
+    "vi": "Tên nhân viên không được để trống"
+  },
+  "Can not delete": {
+    "vi": "Không được xóa"
+  },
+  "Add new employee": {
+    "vi": "Thêm nhân viên mới"
+  },
+  "Edit employee": {
+    "vi": "Chỉnh sửa nhân viên"
+  },
+  "Please enter full password": {
+    "vi": "Vui lòng nhập đầy đủ mật khẩu"
+  },
+  "Can not have data of the supplier": {
+    "vi": "Chưa có dữ liệu của nhà cung cấp."
+  },
+  "Supplier List Management": {
+    "vi": "Quản lý danh sách nhà cung cấp"
+  },
+  "Transporter List Management": {
+    "vi": "Quản lý danh sách nhà vận chuyển"
+  },
+  "Add transporter": {
+    "vi": "Thêm nhà vận chuyển"
+  },
+  "Select transporter": {
+    "vi": "Chọn nhà vận chuyển"
+  },
+  "Transporter name": {
+    "vi": "Tên nhà vận chuyển"
+  },
+  "Transporter information": {
+    "vi": "Thông tin nhà vận chuyển"
+  },
+  "Transporter name must not be blank": {
+    "vi": "Tên nhà vận chuyển không được để trống"
+  },
+  "You will not be able to undo this operation.": {
+    "vi": "Bạn sẽ không thể hoàn tác thao tác này."
+  },
+  "Edit transporter": {
+    "vi": "Chỉnh sửa nhà vận chuyển"
+  },
+  "This account cannot be deleted": {
+    "vi": "Không thể xóa tài khoản này"
+  },
+  "Delete account successfully": {
+    "vi": "Xóa tài khoản thành công"
+  },
+  "Delete transporter failed": {
+    "vi": "Xóa nhà vận chuyển thành công"
+  },
+  "Delete transporter successfully": {
+    "vi": "Xóa nhà vận chuyển thành công"
+  },
+  "January": {
+    "vi": "Tháng 1"
+  },
+  "February": {
+    "vi": "Tháng 2"
+  },
+  "March": {
+    "vi": "Tháng 3"
+  },
+  "April": {
+    "vi": "Tháng 4"
+  },
+  "May": {
+    "vi": "Tháng 5"
+  },
+  "June": {
+    "vi": "Tháng 6"
+  },
+  "July": {
+    "vi": "Tháng 7"
+  },
+  "August": {
+    "vi": "Tháng 8"
+  },
+  "September": {
+    "vi": "Tháng 9"
+  },
+  "October": {
+    "vi": "Tháng 10"
+  },
+  "November": {
+    "vi": "Tháng 11"
+  },
+  "December": {
+    "vi": "Tháng 12"
+  },
+  "Warehouse name must not be blank": {
+    "vi": "Tên kho không được để trống"
+  },
+  "Can not delete the main warehouse": {
+    "vi": "Không được xóa kho chính"
+  },
+  "Create new warehouse": {
+    "vi": "Tạo kho mới"
+  },
+  "Edit warehouse": {
+    "vi": "Chỉnh sửa kho"
+  },
+  "Update warehouse successfully": {
+    "vi": "Cập nhật thông tin kho thành công"
+  },
+  "Update warehouse failed": {
+    "vi": "Cập nhật thông tin kho thất bại"
+  },
+  "Create warehouse successfully": {
+    "vi": "Tạo kho mới thành công"
+  },
+  "Create warehouse failed": {
+    "vi": "Tạo kho mới thất bại"
+  },
+  "Delete warehouse failed": {
+    "vi": "Xóa kho thất bại"
+  },
+  "Delete warehouse successfully": {
+    "vi": "Xóa kho thành công"
+  },
+  "There is still data related to the warehouse. Unable to delete warehouse.": {
+    "vi": "vẫn còn tồn tại dữ liệu liên quan đến kho. Không thể xóa kho."
+  },
+  "Do you want to delete the selected supplier?": {
+    "vi": "Bạn có muốn xóa nhà cung cấp đã chọn"
+  },
+  "Do you want to delete the selected transporter?": {
+    "vi": "Bạn có muốn xóa nhà vận chuyển đã chọn"
+  },
+  "Do you want to delete the selected warehouse?": {
+    "vi": "Bạn có muốn xóa kho đã chọn"
+  },
+  "Delete supplier failed": {
+    "vi": "Xóa nhà cung cấp thất bại"
+  },
+  "Delete supplier successfully": {
+    "vi": "Xóa nhà cung cấp thành công"
+  },
+  "Delete supplier canceled": {
+    "vi": "Đã hủy việc xóa nhà cung cấp"
+  },
+  "Delete warehouse canceled": {
+    "vi": "Đã hủy việc xóa kho"
+  },
+  "Enter code, name product": {
+    "vi": "Nhập mã, tên sản phẩm"
+  },
+  "Product": {
+    "vi": "Sản phẩm"
+  },
+  "Search by product code, name": {
+    "vi": "Tìm kiếm theo mã, tên sản phẩm"
+  },
+  "Cost price must not be blank": {
+    "vi": "Giá vốn không được để trống"
+  },
+  "Enter product name": {
+    "vi": "Nhập tên sản phẩm"
+  },
+  "Enter material code, name": {
+    "vi": "Nhập mã, tên nguyên liệu"
+  },
+  "Do you want to delete the selected product?": {
+    "vi": "Bạn có muốn xóa sản phẩm đã chọn"
+  },
+  "Delete product canceled": {
+    "vi": "Đã hủy việc xóa sản phẩm"
+  },
+  "Enter product code": {
+    "vi": "Nhập mã sản phẩm"
+  },
+  "Edit Product": {
+    "vi": "Sửa Sản phẩm"
+  },
+  "Enter EAN Code": {
+    "vi": "Nhập mã EAN"
+  },
+  "Enter SKU Code": {
+    "vi": "Nhập mã SKU"
+  },
+  "Select product category": {
+    "vi": "Chọn danh mục sản phẩm"
+  },
+  "Delete combo successfull": {
+    "vi": "Xoá combo thành công"
+  },
+  "Delete combo fail": {
+    "vi": "Xoá combo lỗi"
+  },
+  "Are you sure delete combo": {
+    "vi": "Bạn có chắc chắn muốn xoá combo"
+  },
+  "Enter the product number": {
+    "vi": "Nhập số lượng sản phẩm"
+  },
+  "Select product": {
+    "vi": "Chọn sản phẩm"
+  },
+  "Enter code, name material": {
+    "vi": "Nhập mã, tên nguyên liệu"
+  },
+  "Add role": {
+    "vi": "Thêm vai trò"
+  },
+  "Input role name": {
+    "vi": "Nhập tên"
+  },
+  "Roles": {
+    "vi": "Vai trò"
+  },
+  "Roles is empty.": {
+    "vi": "Chưa có dữ liệu."
+  },
+  "Permissions": {
+    "vi": "Quyền"
+  },
+  "Permissions is empty.": {
+    "vi": "Chưa có dữ liệu."
+  },
+  "Invoice code": {
+    "vi": "Mã hoá đơn"
+  },
+  "Billing information": {
+    "vi": "Thông tin thanh toán"
+  },
+  "Cost": {
+    "vi": "Chi phí"
+  },
+  "Ship fee": {
+    "vi": "Phí vận chuyển"
+  },
+  "Guest pay": {
+    "vi": "Khách hàng thanh toán"
+  },
+  "Debt": {
+    "vi": "Công nợ"
+  },
+  "Waybill code": {
+    "vi": "Mã đơn vận"
+  },
+  "Waybill information": {
+    "vi": "Thông tin đơn vận"
+  },
+  "Shipping": {
+    "vi": "Đang chuyển"
+  },
+  "Waiting": {
+    "vi": "Chờ"
+  },
+  "Returning": {
+    "vi": "Hoàn lại"
+  },
+  "Enter combo name": {
+    "vi": "Nhập tên combo"
+  },
+  "Enter product code, name": {
+    "vi": "Nhập mã, tên sản phẩm"
+  },
+  "From date": {
+    "vi": "Từ ngày"
+  },
+  "To date": {
+    "vi": "Đến ngày"
+  },
+  "This month": {
+    "vi": "Tháng này"
+  },
+  "Last month": {
+    "vi": "Tháng trước"
+  },
+  "Last 6 months": {
+    "vi": "Trong 6 tháng gần đây"
+  },
+  "Receive note": {
+    "vi": "Phiếu nhập kho"
+  },
+  "Delivery note": {
+    "vi": "Phiếu xuất kho"
+  },
+  "Inventory note": {
+    "vi": "Phiếu kiểm kho"
+  },
+  "No data": {
+    "vi": "Không có dữ liệu"
+  },
+  "Completed": {
+    "vi": "Hoàn thành"
+  },
+  "See detail": {
+    "vi": "Xem chi tiết"
+  },
+  "Print import order form": {
+    "vi": "In hoá đơn"
+  },
+  "Search customer": {
+    "vi": "Tìm kiếm khách hàng"
+  },
+  "Total cost": {
+    "vi": "Tổng chi phí"
+  },
+  "Create order failed": {
+    "vi": "Tạo đơn hàng thất bại"
+  },
+  "Create order successfully": {
+    "vi": "Tạo đơn hàng thành công"
+  },
+  "Please enter full information to create order": {
+    "vi": "Vui lòng điền đầy đủ thông tin để tạo đơn hàng"
+  },
+  "Money collect": {
+    "vi": "Tiền thu hộ"
+  },
+  "Customer": {
+    "vi": "Khách hàng"
+  },
+  "Delete transporter canceled": {
+    "vi": "Đã hủy việc xóa nhà vận chuyển"
+  },
+  "Create product": {
+    "vi": "Tạo sản phẩm"
+  },
+  "Create order": {
+    "vi": "Tạo đơn hàng"
+  },
+  "Receipt": {
+    "vi": "Phiếu thu"
+  },
+  "Warehouses": {
+    "vi": "Kho"
+  },
+  "template_product_receive": {
+    "vi": "mau_san_pham_nhap_kho"
+  },
+  "Product name": {
+    "vi": "Tên sản phẩm"
+  },
+  "template_product_delivery": {
+    "vi": "mau_san_pham_xuat_kho"
+  },
+  "template_product_inventory": {
+    "vi": "mau_san_pham_kiem_kho"
+  },
+  "Administrator": {
+    "vi": "Administrator"
+  },
+  "Confirm password": {
+    "vi": "Mật khẩu xác nhận"
+  },
+  "Staff": {
+    "vi": "Nhân viên"
+  },
+  "Confirm your password": {
+    "vi": "Xác nhận mật khẩu của bạn"
+  },
+  "Edit user": {
+    "vi": "Sửa thông tin nhân viên"
+  },
+  "Add user": {
+    "vi": "Thêm nhân viên mới"
+  },
+  "Warehouse management": {
+    "vi": "Quản lý kho"
+  },
+  "Product management": {
+    "vi": "Quản lý sản phẩm"
+  },
+  "Order management": {
+    "vi": "Quản lý đơn hàng"
+  },
+  "Customer management": {
+    "vi": "Quản lý khách hàng"
+  },
+  "Transporter management": {
+    "vi": "Quản lý khách hàng"
+  },
+  "Staff management": {
+    "vi": "Quản lý nhân viên"
+  },
+  "Select permissions": {
+    "vi": "Chọn quyền"
+  },
+  "To receive cost report": {
+    "vi": "Báo cáo chi phí nhập hàng"
+  },
+  "Goods receive cost": {
+    "vi": "Chi phí nhập hàng"
+  },
+  "Pick a year": {
+    "vi": "Chọn năm"
+  },
+  "1st Quarter": {
+    "vi": "Quý 1"
+  },
+  "2nd Quarter": {
+    "vi": "Quý 2"
+  },
+  "3rd Quarter": {
+    "vi": "Quý 3"
+  },
+  "4th Quarter": {
+    "vi": "Quý 4"
+  },
+  "Month": {
+    "vi": "Tháng"
+  },
+  "Quarter": {
+    "vi": "Quý"
+  },
+  "Quarterly goods receive costs": {
+    "vi": "Chi phí nhập hàng theo quý"
+  },
+  "Monthly goods receive costs": {
+    "vi": "Chi phí nhập hàng theo tháng"
+  },
+  "Please select an attribute and enter the full value": {
+    "vi": "Vui lòng chọn thuộc tính và nhập đầy đủ giá trị"
+  },
+  "Unset": {
+    "vi": "Chưa thiết lập"
+  },
+  "Email Configuration": {
+    "vi": "Cấu hình email"
+  },
+  "Send mail to remind your contract": {
+    "vi": "Gửi mail để nhắc nhở hợp đồng của bạn"
+  },
+  "Send report your debt": {
+    "vi": "Gửi báo cáo công nợ của bạn"
+  },
+  "Sales report": {
+    "vi": "Báo cáo doanh thu"
+  },
+  "Revenue": {
+    "vi": "Doanh thu"
+  },
+  "Quarterly revenue": {
+    "vi": "Doanh thu theo quý"
+  },
+  "Monthly revenue": {
+    "vi": "Doanh thu theo tháng"
+  },
+  "Cost of goods sold": {
+    "vi": "Giá vốn"
+  },
+  "Gross profit": {
+    "vi": "Lợi nhuận tổng"
+  },
+  "Gross revenue": {
+    "vi": "Doanh thu tổng"
+  },
+  "Edit role": {
+    "vi": "Sửa vai trò"
+  },
+  "Edit property": {
+    "vi": "Sửa thuộc tính"
+  },
+  "Delete property": {
+    "vi": "Xóa thuộc tính"
+  },
+  "Enter historical cost": {
+    "vi": "Nhập giá vốn"
+  },
+  "Enter variant name": {
+    "vi": "Nhập tên biến thể"
+  },
+  "Enter variant code": {
+    "vi": "Nhập mã biến thể"
+  },
+  "Properties": {
+    "vi": "Thuộc tính"
+  },
+  "Select properties": {
+    "vi": "Chọn thuộc tính"
+  },
+  "Combo code": {
+    "vi": "Mã combo"
+  },
+  "Contract Management": {
+    "vi": "Quản lý hợp đồng"
+  },
+  "Contract": {
+    "vi": "Hợp đồng"
+  },
+  "Remind time": {
+    "vi": "Thời gian nhắc nhở"
+  },
+  "Search by contract code, customer name": {
+    "vi": "Tìm theo mã hợp đồng, tên khách hàng"
+  },
+  "Sale Contract": {
+    "vi": "Hợp đồng mua bán"
+  },
+  "Can not uncheck the main warehouse": {
+    "vi": "Không thể bỏ chọn kho chính"
+  },
+  "Still products in stock": {
+    "vi": "Vẫn còn sản phẩm trong kho"
+  },
+  "Add contact": {
+    "vi": "Thêm liên hệ"
+  },
+  "Please enter phone in the first contact": {
+    "vi": "Vui lòng nhập số điện ở thông tin liên hệ đầu tiên."
+  },
+  "Please enter email in the first contact": {
+    "vi": "Vui lòng nhập email ở thông tin liên hệ đầu tiên."
+  },
+  "Contact": {
+    "vi": "Thông tin liên hệ"
+  },
+  "Product Picture": {
+    "vi": "Hình ảnh sản phẩm"
+  },
+  "Package Picture": {
+    "vi": "Hình ảnh đóng gói"
+  },
+  "Unit": {
+    "vi": "Đơn vị"
+  },
+  "Box": {
+    "vi": "Hộp"
+  },
+  "Box quantity": {
+    "vi": "Số lượng hộp"
+  },
+  "MOQ": {
+    "vi": "MOQ"
+  },
+  "Size L-W-H(cm)": {
+    "vi": "Kích thước D-R-C(cm)"
+  },
+  "Image uploaded": {
+    "vi": "Hình ảnh đã tải lên"
+  },
+  "Upload Images": {
+    "vi": "Tải ảnh lên"
+  },
+  "Update information product successfull": {
+    "vi": "Cập nhật thông tin sản phẩm thành công"
+  },
+  "Please enter the full quantity of material": {
+    "Vi": "Vui lòng nhập đầy đủ số lượng nguyên liệu"
+  },
+  "Please enter full attributes and values": {
+    "vi": "Please enter full attributes and values"
+  },
+  "Product name must not be blank": {
+    "vi": "Tên sản phẩm không được để trống"
+  },
+  "Update information product failed": {
+    "vi": "Cập nhật thông tin sản phẩm thất bại"
+  },
+  "EAN code must not be blank": {
+    "vi": "Mã EAN không được để trống"
+  },
+  "Please enter the size according to the format: length x weight x height": {
+    "vi": "Vui lòng nhập kích thước theo định dạng: dài x rộng x cao"
+  },
+  "Cancel receive": {
+    "vi": "Hủy nhập kho"
+  },
+  "Please upload full products information and images": {
+    "vi": "Vui lòng tải lên đủ thông tin sản phẩm và hình ảnh"
+  },
+  "Product picture": {
+    "vi": "Hình ảnh sản phẩm"
+  },
+  "Chi ba factory": {
+    "vi": "Chi ba factory"
+  },
+  "This function is under maintenance.": {
+    "vi": "Chức năng này đang được bảo trì."
+  },
+  "This function is currently under development. Please come back later!": {
+    "vi": "Chức năng này hiện đang được phát triển. Quý khách vui lòng quay lại sau!"
+  },
+  "Click on row to open history of warehouse": {
+    "vi": "Bấm vào hàng để mở lịch sử của kho"
+  },
+  "Cancelled": {
+    "vi": "Đã hủy"
+  },
+  "Update bill of lading successfully": {
+    "vi": "Cập nhật đơn vận thành công"
+  },
+  "Update bill of lading failed": {
+    "vi": "Cập nhật đơn vận thất bại"
+  },
+  "Create Receipt": {
+    "vi": "Tạo phiếu thu"
+  },
+  "Create warehouse transfer note": {
+    "vi": "Tạo phiếu chuyển kho"
+  },
+  "Warehouse transfer note": {
+    "vi": "Phiếu chuyển kho"
+  },
+  "Edit warehouse transfer note": {
+    "vi": "Sửa phiếu chuyển kho"
+  },
+  "From warehouse": {
+    "vi": "Từ kho"
+  },
+  "To warehouse": {
+    "vi": "Đến kho"
+  },
+  "Create warehouse transfer note successfully.": {
+    "vi": "Tạo phiếu chuyển kho thành công"
+  },
+  "Update warehouse transfer note successfully.": {
+    "vi": "Cập nhật phiếu chuyển kho thành công"
+  },
+  "Change status successfully": {
+    "vi": "Thay đổi trạng thái thành công"
+  },
+  "Can not change status": {
+    "vi": "Không thể thay đổi trạng thái"
+  },
+  "Update inventory note successfully": {
+    "vi": "Cập nhật phiếu kiểm kho thành công"
+  },
+  "Create inventory note successfully": {
+    "vi": "Tạo phiếu kiểm kho thành công"
+  },
+  "No warehouse transfer note yet": {
+    "vi": "Chưa có phiếu chuyển kho"
+  },
+  "No receive note yet": {
+    "vi": "Chưa có phiếu nhập"
+  },
+  "No inventory note yet": {
+    "vi": "Chưa có phiếu kiểm kho"
+  },
+  "The bill of lading does not exist": {
+    "vi": "Đơn vận không tồn tại"
+  },
+  "No waybill yet": {
+    "vi": "Chưa có đơn vận"
+  },
+  "Saving... ": {
+    "vi": "Đang lưu... "
+  },
+  "No orders yet": {
+    "vi": "Chưa có đơn hàng nào"
+  }
+}
